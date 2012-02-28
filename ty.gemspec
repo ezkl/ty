@@ -14,4 +14,7 @@ Gem::Specification.new do |gem|
   gem.name          = "ty"
   gem.require_paths = ["lib"]
   gem.version       = Ty::VERSION
+  
+  gem.add_dependency("typhoeus", "~> 0.3.3")
+  gem.add_development_dependency("rspec", "~> 2.8.0")
 end

@@ -1,6 +1,6 @@
 # Ty
 
-TODO: Write a gem description
+I frequently use the [Typhoeus](https://github.com/dbalatero/typhoeus) HTTP library. I also frequently misspell Typhoeus.
 
 ## Installation
 
@@ -18,7 +18,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    require 'ty'
+
+    Ty.get("http://google.com/", follow_location: true)
 
 ## Contributing
 
